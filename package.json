@@ -1,0 +1,12 @@
+{
+  "name": "oas2schema",
+  "version": "1.0.0",
+  "description": "Fetch OpenAPI specs from apis.developer.overheid.nl and extract JSON Schemas",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@scalar/openapi-upgrader": "^0.2.0"
+  }
+}
